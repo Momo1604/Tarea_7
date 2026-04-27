@@ -1,0 +1,9 @@
+name: Work 1 Munoz
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print something
+        run: echo "Hello, world!"
+      
